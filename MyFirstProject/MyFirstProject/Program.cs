@@ -5,7 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace Modulus
+
 {
     internal class Program
     {
@@ -16,6 +18,7 @@ namespace Modulus
 
             Console.WriteLine(firstNum/secondNum);
             Console.WriteLine(firstNum%secondNum);
+
             Console.ReadLine();
         }
     }
