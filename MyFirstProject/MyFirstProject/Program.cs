@@ -5,38 +5,26 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
-namespace Operations
-
+namespace VarKeyword
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-
-            int age = 23;
-            age++;
+            var age = 23;
             Console.WriteLine(age);
-            age--;
-            Console.WriteLine(age);
-            age *= 10;
-            age += 10;
-            double age2 = 23;
-            age2 /= 10;
-            Console.WriteLine(age2);
 
-            string name = "Aba";
-            name += " is programing!";
-            Console.WriteLine(name);
+            var bigNumber = 9000000000L;
+            Console.WriteLine(bigNumber);
 
-            char ch = 'a';
-            ch += 'b';
-            Console.WriteLine(ch);
+            var negative = -55.2D;
+            Console.WriteLine(negative);
 
-            int i = 0;
-            Console.WriteLine(i++);
-            Console.WriteLine(i);
-            Console.WriteLine(++i);
+            var precision = 5.000001F;
+            Console.WriteLine(precision);
+
+            var money = 14.99M;
+            Console.WriteLine(money);
 
             Console.ReadLine();
         }
