@@ -5,22 +5,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Constants
-
+namespace Exercise
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            const int vat = 20;
-            const double percentVAT = vat / 100D;
-            //vat = 10;
-            Console.WriteLine(vat);
-
-            int balance = 1000;
-            Console.WriteLine(balance*percentVAT);
-
-            const string version = "v1.0";
+            int numberOne = 10;
+            int numberTwo = 2;
+            int remainder = numberOne % numberTwo;
+            Console.WriteLine(remainder);
+            numberOne = 11;
+            remainder = numberOne % numberTwo;
+            Console.WriteLine(remainder);
 
             Console.ReadLine();
         }
