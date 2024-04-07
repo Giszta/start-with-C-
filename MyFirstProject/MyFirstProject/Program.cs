@@ -5,12 +5,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace VarKeyword
+
 {
     internal class Program
     {
         static void Main(string[] args)
         {
+
             var age = 23;
             Console.WriteLine(age);
 
@@ -25,6 +28,7 @@ namespace VarKeyword
 
             var money = 14.99M;
             Console.WriteLine(money);
+
 
             Console.ReadLine();
         }
