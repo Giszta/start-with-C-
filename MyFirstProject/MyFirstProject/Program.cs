@@ -5,7 +5,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
 namespace Exercise
 
 {
@@ -13,18 +12,14 @@ namespace Exercise
     {
         static void Main(string[] args)
         {
-            string name = "Adam";
-            string phoneNumber = "0123456789";
-            int age = 20;
-            Console.WriteLine(name);
-            Console.WriteLine(phoneNumber);
-            Console.WriteLine(age);
-            var name2 = "Adam";
-            var phoneNumber2 = "0123456789";
-            var age2 = 20;
-            Console.WriteLine(name2);
-            Console.WriteLine(phoneNumber2);
-            Console.WriteLine(age2);
+            int numberOne = 10;
+            int numberTwo = 2;
+            int remainder = numberOne % numberTwo;
+            Console.WriteLine(remainder);
+            numberOne = 11;
+            remainder = numberOne % numberTwo;
+            Console.WriteLine(remainder);
+
 
             Console.ReadLine();
         }
