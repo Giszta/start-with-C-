@@ -5,30 +5,24 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
-namespace VarKeyword
-
+namespace Exercise
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-
-            var age = 23;
+            string name = "Adam";
+            string phoneNumber = "0123456789";
+            int age = 20;
+            Console.WriteLine(name);
+            Console.WriteLine(phoneNumber);
             Console.WriteLine(age);
-
-            var bigNumber = 9000000000L;
-            Console.WriteLine(bigNumber);
-
-            var negative = -55.2D;
-            Console.WriteLine(negative);
-
-            var precision = 5.000001F;
-            Console.WriteLine(precision);
-
-            var money = 14.99M;
-            Console.WriteLine(money);
-
+            var name2 = "Adam";
+            var phoneNumber2 = "0123456789";
+            var age2 = 20;
+            Console.WriteLine(name2);
+            Console.WriteLine(phoneNumber2);
+            Console.WriteLine(age2);
 
             Console.ReadLine();
         }
