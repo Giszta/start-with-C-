@@ -6,18 +6,29 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-namespace Modulus
+namespace VarKeyword
 
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            int firstNum = 10;
-            int secondNum = 3;
 
-            Console.WriteLine(firstNum/secondNum);
-            Console.WriteLine(firstNum%secondNum);
+            var age = 23;
+            Console.WriteLine(age);
+
+            var bigNumber = 9000000000L;
+            Console.WriteLine(bigNumber);
+
+            var negative = -55.2D;
+            Console.WriteLine(negative);
+
+            var precision = 5.000001F;
+            Console.WriteLine(precision);
+
+            var money = 14.99M;
+            Console.WriteLine(money);
+
 
             Console.ReadLine();
         }
