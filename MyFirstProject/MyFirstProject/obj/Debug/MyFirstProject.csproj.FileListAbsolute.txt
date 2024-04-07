@@ -1,0 +1,7 @@
+C:\Users\Giszta\OneDrive\Pulpit\Moje\PROGRAMOWANIE\C#\FreeCodeCamp course\MyFirstProject\MyFirstProject\bin\Debug\MyFirstProject.exe.config
+C:\Users\Giszta\OneDrive\Pulpit\Moje\PROGRAMOWANIE\C#\FreeCodeCamp course\MyFirstProject\MyFirstProject\bin\Debug\MyFirstProject.exe
+C:\Users\Giszta\OneDrive\Pulpit\Moje\PROGRAMOWANIE\C#\FreeCodeCamp course\MyFirstProject\MyFirstProject\bin\Debug\MyFirstProject.pdb
+C:\Users\Giszta\OneDrive\Pulpit\Moje\PROGRAMOWANIE\C#\FreeCodeCamp course\MyFirstProject\MyFirstProject\obj\Debug\MyFirstProject.csproj.AssemblyReference.cache
+C:\Users\Giszta\OneDrive\Pulpit\Moje\PROGRAMOWANIE\C#\FreeCodeCamp course\MyFirstProject\MyFirstProject\obj\Debug\MyFirstProject.csproj.CoreCompileInputs.cache
+C:\Users\Giszta\OneDrive\Pulpit\Moje\PROGRAMOWANIE\C#\FreeCodeCamp course\MyFirstProject\MyFirstProject\obj\Debug\MyFirstProject.exe
+C:\Users\Giszta\OneDrive\Pulpit\Moje\PROGRAMOWANIE\C#\FreeCodeCamp course\MyFirstProject\MyFirstProject\obj\Debug\MyFirstProject.pdb
