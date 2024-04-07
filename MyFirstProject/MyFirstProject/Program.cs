@@ -4,21 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace String_Chars
+namespace Bool
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            string name = "Aba";
-            //string name2 = "";
-            char letter = 'a';
-            //char letter2 = '\0';
-            Console.Write("Your name is ");
-            Console.Write(name);
+           bool value = true;
 
-            Console.WriteLine();
-            Console.WriteLine(letter);
+           bool isMale = true;
+            Console.WriteLine(isMale);
+
+            isMale = false;
+            Console.WriteLine(isMale);
+
             Console.ReadLine();
         }
     }
