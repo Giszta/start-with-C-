@@ -5,30 +5,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
-namespace VarKeyword
+namespace Constants
 
 {
     internal class Program
     {
         static void Main(string[] args)
         {
+            const int vat = 20;
+            const double percentVAT = vat / 100D;
+            //vat = 10;
+            Console.WriteLine(vat);
 
-            var age = 23;
-            Console.WriteLine(age);
+            int balance = 1000;
+            Console.WriteLine(balance*percentVAT);
 
-            var bigNumber = 9000000000L;
-            Console.WriteLine(bigNumber);
-
-            var negative = -55.2D;
-            Console.WriteLine(negative);
-
-            var precision = 5.000001F;
-            Console.WriteLine(precision);
-
-            var money = 14.99M;
-            Console.WriteLine(money);
-
+            const string version = "v1.0";
 
             Console.ReadLine();
         }
