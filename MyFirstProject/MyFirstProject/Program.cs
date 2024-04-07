@@ -1,34 +1,39 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace StringToNumber
+namespace Operations
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            string textAge = "-23";
-            int age = Convert.ToInt32(textAge);
+            int age = 23;
+            age++;
             Console.WriteLine(age);
+            age--;
+            Console.WriteLine(age);
+            age *= 10;
+            age += 10;
+            double age2 = 23;
+            age2 /= 10;
+            Console.WriteLine(age2);
 
-            string textBigNumber = "9000000000";
-            long bigNumber = Convert.ToInt64(textBigNumber);
-            Console.WriteLine(bigNumber);
+            string name = "Aba";
+            name += " is programing!";
+            Console.WriteLine(name);
 
-            string textNegative = "-55.2";
-            double negative = Convert.ToDouble(textNegative);
-            Console.WriteLine(negative);
+            char ch = 'a';
+            ch += 'b';
+            Console.WriteLine(ch);
 
-            string textPrecision = "5.000001";
-            float precision = Convert.ToSingle(textPrecision);
-            Console.WriteLine(precision);
-
-            string textMoney = "14.99";
-            decimal money = Convert.ToDecimal(textMoney);
-            Console.WriteLine(money);
+            int i = 0;
+            Console.WriteLine(i++);
+            Console.WriteLine(i);
+            Console.WriteLine(++i);
 
             Console.ReadLine();
         }
