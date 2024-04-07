@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 
-namespace Bool
+namespace Operations
 
 {
     internal class Program
@@ -13,14 +14,29 @@ namespace Bool
         static void Main(string[] args)
         {
 
-           bool value = true;
+            int age = 23;
+            age++;
+            Console.WriteLine(age);
+            age--;
+            Console.WriteLine(age);
+            age *= 10;
+            age += 10;
+            double age2 = 23;
+            age2 /= 10;
+            Console.WriteLine(age2);
 
-           bool isMale = true;
-            Console.WriteLine(isMale);
+            string name = "Aba";
+            name += " is programing!";
+            Console.WriteLine(name);
 
-            isMale = false;
-            Console.WriteLine(isMale);
+            char ch = 'a';
+            ch += 'b';
+            Console.WriteLine(ch);
 
+            int i = 0;
+            Console.WriteLine(i++);
+            Console.WriteLine(i);
+            Console.WriteLine(++i);
 
             Console.ReadLine();
         }
