@@ -5,12 +5,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace Operations
+
 {
     internal class Program
     {
         static void Main(string[] args)
         {
+
             int age = 23;
             age++;
             Console.WriteLine(age);
