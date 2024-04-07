@@ -5,19 +5,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
-namespace Modulus
-
+namespace Constants
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            int firstNum = 10;
-            int secondNum = 3;
+            const int vat = 20;
+            const double percentVAT = vat / 100D;
+            //vat = 10;
+            Console.WriteLine(vat);
 
-            Console.WriteLine(firstNum/secondNum);
-            Console.WriteLine(firstNum%secondNum);
+            int balance = 1000;
+            Console.WriteLine(balance*percentVAT);
+
+            const string version = "v1.0";
 
             Console.ReadLine();
         }
