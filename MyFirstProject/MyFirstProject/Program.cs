@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Exercise
+
 {
     internal class Program
     {
@@ -18,6 +19,7 @@ namespace Exercise
             numberOne = 11;
             remainder = numberOne % numberTwo;
             Console.WriteLine(remainder);
+
 
             Console.ReadLine();
         }
